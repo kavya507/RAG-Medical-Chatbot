@@ -1,0 +1,170 @@
+2025-09-11 17:24:33,357 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:24:33,357 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:24:44,936 - INFO - 127.0.0.1 - - [11/Sep/2025 17:24:44] "GET / HTTP/1.1" 200 -
+2025-09-11 17:24:51,261 - INFO - loading vector store for context
+2025-09-11 17:24:51,262 - INFO - Initialising our HF Embedding model
+2025-09-11 17:24:54,580 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:24:55,658 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:24:55,658 - INFO - loading existing vector store
+2025-09-11 17:24:55,704 - INFO - Loading faiss.
+2025-09-11 17:24:55,728 - INFO - Successfully loaded faiss.
+2025-09-11 17:24:55,756 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:24:55,756 - INFO - HF token loaded? True
+2025-09-11 17:24:55,789 - INFO - LLM loaded successfully: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:24:55,789 - INFO - QA chain created successfully
+2025-09-11 17:24:56,023 - INFO - 127.0.0.1 - - [11/Sep/2025 17:24:56] "POST / HTTP/1.1" 200 -
+2025-09-11 17:36:00,647 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:36:00,647 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:36:12,443 - INFO - 127.0.0.1 - - [11/Sep/2025 17:36:12] "GET / HTTP/1.1" 200 -
+2025-09-11 17:36:19,215 - INFO - loading vector store for context
+2025-09-11 17:36:19,216 - INFO - Initialising our HF Embedding model
+2025-09-11 17:36:22,669 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:36:23,736 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:36:23,736 - INFO - loading existing vector store
+2025-09-11 17:36:23,787 - INFO - Loading faiss.
+2025-09-11 17:36:23,810 - INFO - Successfully loaded faiss.
+2025-09-11 17:36:23,835 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:36:23,835 - ERROR - Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line
+2025-09-11 17:36:23,835 - ERROR - Failed to create QA chain | Error: Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line | Error: None | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/llm.py | Line: 14 | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/retriever.py | Line: 34
+2025-09-11 17:36:23,836 - INFO - 127.0.0.1 - - [11/Sep/2025 17:36:23] "POST / HTTP/1.1" 200 -
+2025-09-11 17:37:30,022 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:37:30,022 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:37:34,720 - INFO - loading vector store for context
+2025-09-11 17:37:34,721 - INFO - Initialising our HF Embedding model
+2025-09-11 17:37:37,547 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:37:38,613 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:37:38,613 - INFO - loading existing vector store
+2025-09-11 17:37:38,661 - INFO - Loading faiss.
+2025-09-11 17:37:38,687 - INFO - Successfully loaded faiss.
+2025-09-11 17:37:38,713 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:37:38,713 - ERROR - Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line
+2025-09-11 17:37:38,713 - ERROR - Failed to create QA chain | Error: Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line | Error: None | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/llm.py | Line: 14 | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/retriever.py | Line: 34
+2025-09-11 17:37:38,717 - INFO - 127.0.0.1 - - [11/Sep/2025 17:37:38] "POST / HTTP/1.1" 200 -
+2025-09-11 17:37:44,774 - INFO - 127.0.0.1 - - [11/Sep/2025 17:37:44] "GET / HTTP/1.1" 200 -
+2025-09-11 17:37:51,032 - INFO - loading vector store for context
+2025-09-11 17:37:51,033 - INFO - Initialising our HF Embedding model
+2025-09-11 17:37:51,040 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:37:52,471 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:37:52,471 - INFO - loading existing vector store
+2025-09-11 17:37:52,654 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:37:52,654 - ERROR - Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line
+2025-09-11 17:37:52,654 - ERROR - Failed to create QA chain | Error: Error loading LLM: TOGETHER_API_KEY is missing. Add it to your .env file. | Error: None | File: Unknown File | Line: Unknown Line | Error: None | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/llm.py | Line: 14 | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/retriever.py | Line: 34
+2025-09-11 17:37:52,655 - INFO - 127.0.0.1 - - [11/Sep/2025 17:37:52] "POST / HTTP/1.1" 200 -
+2025-09-11 17:38:50,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:38:50,455 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:38:57,787 - INFO - 127.0.0.1 - - [11/Sep/2025 17:38:57] "GET / HTTP/1.1" 200 -
+2025-09-11 17:39:03,674 - INFO - loading vector store for context
+2025-09-11 17:39:03,675 - INFO - Initialising our HF Embedding model
+2025-09-11 17:39:06,953 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:39:08,110 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:39:08,110 - INFO - loading existing vector store
+2025-09-11 17:39:08,143 - INFO - Loading faiss.
+2025-09-11 17:39:08,164 - INFO - Successfully loaded faiss.
+2025-09-11 17:39:08,191 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:39:08,191 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:39:08,226 - INFO - LLM loaded successfully from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:39:08,226 - INFO - QA chain created successfully
+2025-09-11 17:39:08,438 - INFO - 127.0.0.1 - - [11/Sep/2025 17:39:08] "POST / HTTP/1.1" 200 -
+2025-09-11 17:40:44,375 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:40:44,375 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:40:51,433 - INFO - 127.0.0.1 - - [11/Sep/2025 17:40:51] "GET / HTTP/1.1" 200 -
+2025-09-11 17:40:59,005 - INFO - loading vector store for context
+2025-09-11 17:40:59,006 - INFO - Initialising our HF Embedding model
+2025-09-11 17:41:02,351 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:41:03,351 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:41:03,351 - INFO - loading existing vector store
+2025-09-11 17:41:03,395 - INFO - Loading faiss.
+2025-09-11 17:41:03,419 - INFO - Successfully loaded faiss.
+2025-09-11 17:41:03,445 - INFO - Loading LLM: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:41:03,445 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:41:03,445 - WARNING - WARNING! together_api_key is not default parameter.
+                    together_api_key was transferred to model_kwargs.
+                    Please make sure that together_api_key is what you intended.
+2025-09-11 17:41:03,478 - INFO - LLM loaded successfully from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:41:03,478 - INFO - QA chain created successfully
+2025-09-11 17:41:03,646 - INFO - 127.0.0.1 - - [11/Sep/2025 17:41:03] "POST / HTTP/1.1" 200 -
+2025-09-11 17:46:39,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:46:39,822 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:46:49,206 - INFO - 127.0.0.1 - - [11/Sep/2025 17:46:49] "GET / HTTP/1.1" 200 -
+2025-09-11 17:46:55,936 - INFO - loading vector store for context
+2025-09-11 17:46:55,937 - INFO - Initialising our HF Embedding model
+2025-09-11 17:46:57,687 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:46:58,775 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:46:58,776 - INFO - loading existing vector store
+2025-09-11 17:46:58,824 - INFO - Loading faiss.
+2025-09-11 17:46:58,852 - INFO - Successfully loaded faiss.
+2025-09-11 17:46:58,968 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:46:58,970 - INFO - QA chain created successfully
+2025-09-11 17:47:01,144 - INFO - 127.0.0.1 - - [11/Sep/2025 17:47:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-11 17:47:01,164 - INFO - 127.0.0.1 - - [11/Sep/2025 17:47:01] "GET / HTTP/1.1" 200 -
+2025-09-11 17:49:58,046 - INFO - 127.0.0.1 - - [11/Sep/2025 17:49:58] "GET / HTTP/1.1" 200 -
+2025-09-11 17:50:06,016 - INFO - loading vector store for context
+2025-09-11 17:50:06,016 - INFO - Initialising our HF Embedding model
+2025-09-11 17:50:06,025 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:50:07,129 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:50:07,129 - INFO - loading existing vector store
+2025-09-11 17:50:07,166 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:50:07,169 - INFO - QA chain created successfully
+2025-09-11 17:50:07,934 - INFO - 127.0.0.1 - - [11/Sep/2025 17:50:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-11 17:50:07,943 - INFO - 127.0.0.1 - - [11/Sep/2025 17:50:07] "GET / HTTP/1.1" 200 -
+2025-09-11 17:50:47,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 17:50:47,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 17:51:04,616 - INFO - 127.0.0.1 - - [11/Sep/2025 17:51:04] "GET / HTTP/1.1" 200 -
+2025-09-11 17:51:09,609 - INFO - loading vector store for context
+2025-09-11 17:51:09,609 - INFO - Initialising our HF Embedding model
+2025-09-11 17:51:11,719 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:51:12,697 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:51:12,697 - INFO - loading existing vector store
+2025-09-11 17:51:12,740 - INFO - Loading faiss.
+2025-09-11 17:51:12,773 - INFO - Successfully loaded faiss.
+2025-09-11 17:51:12,909 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:51:12,911 - INFO - QA chain created successfully
+2025-09-11 17:51:13,417 - INFO - 127.0.0.1 - - [11/Sep/2025 17:51:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-11 17:51:13,436 - INFO - 127.0.0.1 - - [11/Sep/2025 17:51:13] "GET / HTTP/1.1" 200 -
+2025-09-11 17:52:04,293 - INFO - loading vector store for context
+2025-09-11 17:52:04,297 - INFO - Initialising our HF Embedding model
+2025-09-11 17:52:04,307 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 17:52:05,296 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 17:52:05,296 - INFO - loading existing vector store
+2025-09-11 17:52:05,337 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 17:52:05,340 - INFO - QA chain created successfully
+2025-09-11 17:52:06,133 - INFO - 127.0.0.1 - - [11/Sep/2025 17:52:06] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-11 17:52:06,139 - INFO - 127.0.0.1 - - [11/Sep/2025 17:52:06] "GET / HTTP/1.1" 200 -
+2025-09-11 23:07:41,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.5.160:5001
+2025-09-11 23:07:41,594 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-11 23:07:56,660 - INFO - 127.0.0.1 - - [11/Sep/2025 23:07:56] "GET / HTTP/1.1" 200 -
+2025-09-11 23:08:02,252 - INFO - loading vector store for context
+2025-09-11 23:08:02,252 - INFO - Initialising our HF Embedding model
+2025-09-11 23:08:04,324 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 23:08:05,321 - INFO - Hugging face embeddding model loaded successfully
+2025-09-11 23:08:05,321 - INFO - loading existing vector store
+2025-09-11 23:08:05,370 - INFO - Loading faiss.
+2025-09-11 23:08:05,400 - INFO - Successfully loaded faiss.
+2025-09-11 23:08:05,527 - INFO - Loading LLM from Together: mistralai/Mistral-7B-Instruct-v0.3
+2025-09-11 23:08:05,528 - INFO - QA chain created successfully
+2025-09-11 23:08:06,319 - INFO - 127.0.0.1 - - [11/Sep/2025 23:08:06] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-11 23:08:06,327 - INFO - 127.0.0.1 - - [11/Sep/2025 23:08:06] "GET / HTTP/1.1" 200 -

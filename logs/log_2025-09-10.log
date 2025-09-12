@@ -1,0 +1,26 @@
+2025-09-10 15:33:58,549 - INFO - Making the vector store
+2025-09-10 15:33:58,549 - INFO - Loading files from data/
+2025-09-10 15:34:05,732 - INFO - Successfully fetched 759 documents
+2025-09-10 15:34:05,732 - INFO - Splitting 759 documents into chunks
+2025-09-10 15:34:05,824 - INFO - Generated 7080 text chunks
+2025-09-10 15:34:05,824 - INFO - Generating your vector store
+2025-09-10 15:34:05,824 - INFO - Initialising our HF Embedding model
+2025-09-10 15:34:11,834 - INFO - Use pytorch device_name: mps
+2025-09-10 15:34:11,834 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-10 15:34:13,871 - INFO - Hugging face embeddding model loaded successfully
+2025-09-10 15:35:19,463 - INFO - Loading faiss.
+2025-09-10 15:35:19,560 - ERROR - Failed to create new vector store | Error: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version). | File: /Users/kavyabaltha/Desktop/Medical RAG Chatbot/app/components/vector_store.py | Line: 34
+2025-09-10 15:36:18,750 - INFO - Making the vector store
+2025-09-10 15:36:18,750 - INFO - Loading files from data/
+2025-09-10 15:36:26,177 - INFO - Successfully fetched 759 documents
+2025-09-10 15:36:26,177 - INFO - Splitting 759 documents into chunks
+2025-09-10 15:36:26,269 - INFO - Generated 7080 text chunks
+2025-09-10 15:36:26,269 - INFO - Generating your vector store
+2025-09-10 15:36:26,269 - INFO - Initialising our HF Embedding model
+2025-09-10 15:36:29,886 - INFO - Use pytorch device_name: mps
+2025-09-10 15:36:29,886 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-10 15:36:31,692 - INFO - Hugging face embeddding model loaded successfully
+2025-09-10 15:37:38,267 - INFO - Loading faiss.
+2025-09-10 15:37:38,373 - INFO - Successfully loaded faiss.
+2025-09-10 15:37:38,489 - INFO - Saving vector database
+2025-09-10 15:37:38,522 - INFO - Vector store created successfully
